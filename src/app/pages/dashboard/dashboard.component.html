@@ -1,0 +1,29 @@
+<div class="main">
+    <header class="dashboard-header">
+        <div class="centered-header">
+            <span class="title">
+                Data Commerce
+            </span>
+            <nav class="navigation">
+                <ul class="options">
+                    <li class="option">Dashboard</li>
+                    <li class="option">Sobre nós</li>
+                </ul>
+            </nav>
+            <span class="signin">Comece Agora</span>        
+        </div>
+    </header>
+    <div class="grid-container dashboard-container">
+        <app-grid-card class="grid-card cl-7 rw-6" title="Vendas">
+            <app-sales-by-integration></app-sales-by-integration>
+        </app-grid-card>
+        <app-grid-card class="grid-card cl-5 rw-6" title="Balanço do Mês">
+            <app-sales-per-month></app-sales-per-month>
+        </app-grid-card>
+        <app-grid-card class="grid-card cl-12 rw-6" title="Campeões de Venda">
+            <app-sales-champions></app-sales-champions>
+        </app-grid-card>
+        <app-grid-card class="grid-card cl-6 rw-6" title="Recomendações"></app-grid-card>
+        <app-grid-card class="grid-card cl-6 rw-6" title="Baixa Rotatividade"></app-grid-card>
+    </div>
+</div>
