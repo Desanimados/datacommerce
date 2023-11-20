@@ -4,6 +4,8 @@ import { SalesByIntegrationComponent } from '../../molecules/sales-by-integratio
 import { GridCardComponent } from '../../atoms/grid-card/grid-card.component';
 import { SalesPerMonthComponent } from '../../molecules/sales-per-month/sales-per-month.component';
 import { SalesChampionsComponent } from '../../molecules/sales-champions/sales-champions.component';
+import { RecommendationsComponent } from '../../molecules/recommendations/recommendations.component';
+import { LowRotationComponent } from '../../molecules/low-rotation/low-rotation.component';
 
 @Component({
   selector: 'app-dashboard',
@@ -13,7 +15,9 @@ import { SalesChampionsComponent } from '../../molecules/sales-champions/sales-c
     SalesByIntegrationComponent,
     GridCardComponent,
     SalesPerMonthComponent,
-    SalesChampionsComponent
+    SalesChampionsComponent,
+    RecommendationsComponent,
+    LowRotationComponent
   ],
   templateUrl: './dashboard.component.html',
   styleUrl: './dashboard.component.scss'
